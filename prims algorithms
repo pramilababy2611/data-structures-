@@ -38,4 +38,4 @@ int main() {
     primMST(graph);
     return 0;
 }
-       min = key[v], min_index = v;
+      
