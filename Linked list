@@ -14,9 +14,9 @@ int main()
   struct node *head,*middle,*last;
 
   
-  head   = malloc(sizeof (struct node));
-  middle =malloc(sizeof(struct node));
-  last   = malloc(sizeof(struct node));
+  head   = (struct node*)malloc(sizeof (struct node));
+  middle =(struct node*)malloc(sizeof(struct node));
+  last   =(struct node*) malloc(sizeof(struct node));
 
   
   head->data   = 10;
